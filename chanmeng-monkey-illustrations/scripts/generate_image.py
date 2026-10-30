@@ -74,7 +74,7 @@ SIZES = {
 # The page colour. Generation is always on white; a non-white ground is swapped in after.
 GROUNDS = {
     "white": None,
-    "basalt": (0xE2, 0xE2, 0xDF),  # social post visuals (linkedin-post-skill)
+    "basalt": (0xE2, 0xE2, 0xDF),  # social post visuals (chanmeng-linkedin-post)
     "ash": (0xF7, 0xF6, 0xF2),
 }
 

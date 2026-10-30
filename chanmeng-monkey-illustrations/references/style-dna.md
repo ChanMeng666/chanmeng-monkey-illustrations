@@ -55,7 +55,7 @@ friend at a whiteboard, with a wink.
 
 ## Social post profile (LinkedIn / X)
 
-Used when the image goes in a feed — `linkedin-post-skill` calls this skill with it. The
+Used when the image goes in a feed — `chanmeng-linkedin-post` calls this skill with it. The
 feed has stricter brand rules than the blog, and the image is seen at phone width for a
 second while scrolling:
 

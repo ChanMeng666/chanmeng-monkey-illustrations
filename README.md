@@ -127,9 +127,9 @@ python chanmeng-monkey-illustrations/scripts/generate_image.py --edit out/01-ide
 It never overwrites: if `01-idea.png` exists it writes `01-idea-v2.png`, unless you pass
 `--overwrite`.
 
-## With linkedin-post-skill
+## With chanmeng-linkedin-post
 
-[linkedin-post-skill](https://github.com/ChanMeng666/linkedin-post-skill) writes Chan's LinkedIn
+[chanmeng-linkedin-post](https://github.com/ChanMeng666/chanmeng-linkedin-post) writes Chan's LinkedIn
 and X posts. It uses this skill as its default visual for posts that have no structure to
 diagram: it writes a brief from the post's one idea, renders the LinkedIn version, then
 recomposes it for X (`scripts/render-monkey.mjs` there). Numbers and architecture are still
