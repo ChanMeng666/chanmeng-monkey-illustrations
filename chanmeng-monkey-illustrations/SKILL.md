@@ -1,5 +1,5 @@
 ---
-name: chan-monkey-illustrations
+name: chanmeng-monkey-illustrations
 description: Generate Chan Meng–branded inline illustrations for articles, blog posts, newsletters, LinkedIn posts, docs and talks, starring Chan's brand monkey (the solid-ink monkey head from the chanmeng.org logo). Use whenever the user asks for article illustrations, blog images, inline figures, a shot list, "配图", "正文配图", "文章插图", "猴子配图", "Chan monkey illustration", or wants a judgement, workflow, structure, state or metaphor from their writing drawn as a picture; also for editing or regenerating one of these images (remove text, fix a label, make the monkey more central). English or Chinese articles.
 ---
 

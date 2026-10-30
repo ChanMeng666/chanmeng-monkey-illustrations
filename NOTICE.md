@@ -13,7 +13,7 @@ visual style are not included; this skill uses its own character, palette and ex
 is MIT-licensed; the mark itself is a personal brand asset — please don't use it to
 represent anyone else or your own products.
 
-The example images in `examples/images/` and `chan-monkey-illustrations/assets/examples/`
+The example images in `examples/images/` and `chanmeng-monkey-illustrations/assets/examples/`
 were generated with this skill (OpenAI `gpt-image-2`) as style calibration.
 All text and documentation in this repository is in English; the skill itself works in English
 and Chinese.

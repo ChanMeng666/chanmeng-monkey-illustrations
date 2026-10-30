@@ -42,7 +42,7 @@ It doesn't make slides, infographics, architecture diagrams, posters or mascot s
 | | ten expressions, from the mood set of the website's animated monkey |
 
 Anything drawn over the black head is in brand colour, never ink on ink. The full spec is in
-[`references/monkey-ip.md`](chan-monkey-illustrations/references/monkey-ip.md).
+[`references/monkey-ip.md`](chanmeng-monkey-illustrations/references/monkey-ip.md).
 
 ## Style
 
@@ -74,42 +74,42 @@ gets its own metaphor.
 
 ## Install
 
-The skill is the inner folder, `chan-monkey-illustrations/`.
+The skill is the inner folder, `chanmeng-monkey-illustrations/`.
 
 **Claude Code**
 
 ```bash
-git clone https://github.com/ChanMeng666/chan-monkey-illustrations.git
-cp -r chan-monkey-illustrations/chan-monkey-illustrations ~/.claude/skills/
-pip install -r ~/.claude/skills/chan-monkey-illustrations/requirements.txt
+git clone https://github.com/ChanMeng666/chanmeng-monkey-illustrations.git
+cp -r chanmeng-monkey-illustrations/chanmeng-monkey-illustrations ~/.claude/skills/
+pip install -r ~/.claude/skills/chanmeng-monkey-illustrations/requirements.txt
 ```
 
 To keep the installed copy in sync with the clone, link it instead of copying (on Windows,
-`New-Item -ItemType Junction -Path $HOME\.claude\skills\chan-monkey-illustrations -Target <clone>\chan-monkey-illustrations`).
+`New-Item -ItemType Junction -Path $HOME\.claude\skills\chanmeng-monkey-illustrations -Target <clone>\chanmeng-monkey-illustrations`).
 
 **Codex**
 
 ```bash
-cp -r chan-monkey-illustrations/chan-monkey-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -r chanmeng-monkey-illustrations/chanmeng-monkey-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 **API key:** set `OPENAI_API_KEY` in the environment, or in a `.env` in your working directory
-or in the skill folder (see [`.env.example`](chan-monkey-illustrations/.env.example)).
+or in the skill folder (see [`.env.example`](chanmeng-monkey-illustrations/.env.example)).
 `OPENAI_BASE_URL` works for OpenAI-compatible endpoints; `OPENAI_IMAGE_MODEL` defaults to
 `gpt-image-2`.
 
 ## Use
 
 ```text
-Use chan-monkey-illustrations to plan the figures for content/digital-minimalism.mdx. Shot list only.
+Use chanmeng-monkey-illustrations to plan the figures for content/digital-minimalism.mdx. Shot list only.
 ```
 
 ```text
-Use chan-monkey-illustrations to generate 4 illustrations for this article and save them in public/blog/<slug>/.
+Use chanmeng-monkey-illustrations to generate 4 illustrations for this article and save them in public/blog/<slug>/.
 ```
 
 ```text
-用 chan-monkey-illustrations 给这篇文章生成 3 张猴子正文配图。
+用 chanmeng-monkey-illustrations 给这篇文章生成 3 张猴子正文配图。
 ```
 
 ```text
@@ -119,9 +119,9 @@ Edit 03-handoff.png: the curl is sweeping the wrong way. Fix only the head.
 Or call the script directly:
 
 ```bash
-python chan-monkey-illustrations/scripts/generate_image.py --prompt-file brief.txt --out out/01-idea.png
-python chan-monkey-illustrations/scripts/generate_image.py --prompt-file brief.txt --out out/post.png --size linkedin --ground basalt
-python chan-monkey-illustrations/scripts/generate_image.py --edit out/01-idea.png --prompt "Remove the text ..." --out out/01-idea.png
+python chanmeng-monkey-illustrations/scripts/generate_image.py --prompt-file brief.txt --out out/01-idea.png
+python chanmeng-monkey-illustrations/scripts/generate_image.py --prompt-file brief.txt --out out/post.png --size linkedin --ground basalt
+python chanmeng-monkey-illustrations/scripts/generate_image.py --edit out/01-idea.png --prompt "Remove the text ..." --out out/01-idea.png
 ```
 
 It never overwrites: if `01-idea.png` exists it writes `01-idea-v2.png`, unless you pass
@@ -142,14 +142,14 @@ drawn by code there; the image model only ever draws the monkey.
 3. **Invent the metaphor:** an abstract claim becomes a physical verb, the system becomes a
    low-tech object, and the verb goes to the monkey (often to its tail).
 4. **Generate** one image per call, with the logo attached as reference.
-5. **QA** every image against [`references/qa-checklist.md`](chan-monkey-illustrations/references/qa-checklist.md):
+5. **QA** every image against [`references/qa-checklist.md`](chanmeng-monkey-illustrations/references/qa-checklist.md):
    the head on-model, the monkey as the actor, labels spelled right, the colour jobs respected.
 6. **Save** with the prompt beside each image and report what goes where.
 
 ## Layout
 
 ```text
-chan-monkey-illustrations/          # the skill
+chanmeng-monkey-illustrations/          # the skill
 ├── SKILL.md
 ├── agents/openai.yaml              # Codex metadata
 ├── references/

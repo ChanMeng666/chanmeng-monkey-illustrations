@@ -13,7 +13,7 @@ if (!svg) {
   process.exit(1);
 }
 const sharp = require(sharpPath);
-const out = path.join(__dirname, '..', 'chan-monkey-illustrations', 'assets', 'monkey', 'monkey-reference.png');
+const out = path.join(__dirname, '..', 'chanmeng-monkey-illustrations', 'assets', 'monkey', 'monkey-reference.png');
 
 (async () => {
   const head = await sharp(svg, { density: 600 })
