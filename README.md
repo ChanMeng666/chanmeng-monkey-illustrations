@@ -74,6 +74,21 @@ gets its own metaphor.
 
 ## Install
 
+### As a Claude Code plugin (recommended)
+
+```text
+/plugin install chanmeng-monkey-illustrations --marketplace ChanMeng666/chanmeng-monkey-illustrations
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```text
+/plugin marketplace add ChanMeng666/chanmeng-monkey-illustrations
+/plugin install chanmeng-monkey-illustrations@chanmeng-monkey-illustrations
+```
+
+### Manual install
+
 The skill is the inner folder, `chanmeng-monkey-illustrations/`.
 
 **Claude Code**

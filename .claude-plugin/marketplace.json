@@ -1,0 +1,28 @@
+{
+  "name": "chanmeng-monkey-illustrations",
+  "description": "Chan Meng's chanmeng-monkey-illustrations plugin for Claude Code.",
+  "owner": {
+    "name": "Chan Meng",
+    "url": "https://github.com/ChanMeng666"
+  },
+  "plugins": [
+    {
+      "name": "chanmeng-monkey-illustrations",
+      "source": "./",
+      "description": "An agent skill for Claude Code & Codex that turns articles and LinkedIn/X posts into hand-drawn illustrations starring Chan Meng's brand monkey: fresh visual metaphors per idea, the logo passed as a reference image so the character stays on-model, brand palette, English or Chinese labels.",
+      "category": "content-creation",
+      "tags": [
+        "agent-skills",
+        "ai-illustration",
+        "blog-illustrations",
+        "brand-identity",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skills",
+        "codex",
+        "codex-skill",
+        "content-creation"
+      ]
+    }
+  ]
+}
