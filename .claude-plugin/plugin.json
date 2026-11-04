@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "chanmeng-monkey-illustrations",
+  "version": "0.1.0",
+  "description": "An agent skill for Claude Code & Codex that turns articles and LinkedIn/X posts into hand-drawn illustrations starring Chan Meng's brand monkey: fresh visual metaphors per idea, the logo passed as a reference image so the character stays on-model, brand palette, English or Chinese labels.",
+  "author": {
+    "name": "Chan Meng",
+    "url": "https://github.com/ChanMeng666"
+  },
+  "homepage": "https://github.com/ChanMeng666/chanmeng-monkey-illustrations",
+  "repository": "https://github.com/ChanMeng666/chanmeng-monkey-illustrations",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "ai-illustration",
+    "blog-illustrations",
+    "brand-identity",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skills",
+    "codex",
+    "codex-skill",
+    "content-creation",
+    "gpt-image",
+    "hand-drawn",
+    "illustration",
+    "image-generation",
+    "linkedin",
+    "mascot",
+    "openai",
+    "personal-branding"
+  ],
+  "skills": [
+    "./chanmeng-monkey-illustrations"
+  ]
+}
